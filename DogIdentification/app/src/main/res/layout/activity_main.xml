@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#C6C0C0"
+android:orientation="vertical"
+tools:context=".MainActivity">
+
+
+<TextView
+    android:id="@+id/title_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="100dp"
+    android:text="VIP Apps"
+    android:textColor="#5D318A"
+    android:textSize="48sp" />
+
+<TextView
+    android:id="@+id/subtitle_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/title_text_view"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="105dp"
+    android:text="Dog Identification"
+    android:textColor="#5D318A"
+    android:textSize="24sp" />
+
+<ImageView
+    android:id="@+id/camera_image_view"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_below="@id/camera_button"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="32dp"
+    android:layout_marginStart="50dp"
+    android:src="@android:drawable/ic_menu_camera"
+    app:tint="#800080" />
+
+<Button
+    android:id="@+id/camera_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/subtitle_text_view"
+    android:layout_centerHorizontal="true"
+    android:layout_marginStart="100dp"
+    android:layout_marginTop="32dp"
+    android:text="Take A Photo"
+    android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subtitle_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:text="Select Photo From Gallery"
+        android:textSize="23sp"/>
+
+</LinearLayout>
+
